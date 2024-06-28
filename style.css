@@ -108,6 +108,7 @@ body {
 
 #play-pause {
   transition: transform 0.3s;
+  margin-left: 10px;
 }
 
 #play-pause:hover {
