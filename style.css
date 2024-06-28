@@ -5,14 +5,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* 
 body {
   background-image: url(Assets/cover.jpg);
   background-color: rgba(0, 0, 0, 0.01);
   background-size: cover;
   background-position: centre;
   background-blend-mode: overlay;
-}
+} */
 
 .container {
   display: flex;
