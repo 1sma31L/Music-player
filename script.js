@@ -31,3 +31,20 @@ document.addEventListener("keydown", (e) => {
     playPause();
   }
 });
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth < 460) {
+    ctrlIocn.classList.add("fa-3x");
+    ctrlIocn.classList.remove("fa-4x");
+  } else {
+    ctrlIocn.classList.remove("fa-3x");
+    ctrlIocn.classList.add("fa-4x");
+  }
+  if (window.innerWidth < 360) {
+    ctrlIocn.classList.add("fa-2x");
+    ctrlIocn.classList.remove("fa-3x");
+  } else {
+    ctrlIocn.classList.remove("fa-3x");
+    ctrlIocn.classList.add("fa-3x");
+  }
+});

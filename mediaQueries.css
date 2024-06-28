@@ -1,9 +1,32 @@
-@media  screen and (max-width: 530px) {
+@media  screen and (max-width: 400px) {
+    
+    .container {
+        width:80%;
+        height:400px
+    }
+    .cover {
+        width: 70%;
+    }
+    .music {
+        margin: 0;
+        padding:10px
+    }
+    .music .music-info .title {
+        font-size: 23px !important;
+      }
+      
+    .music .music-info .artist {
+        font-size: 17px !important;
+    }
+}
+
+
+@media  screen and (max-width: 530px )and (min-width: 401px) {
     .container {
         width:80%;
         height:600px
     }
-    
+
     .cover {
         width: 80%;
     }
