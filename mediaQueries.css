@@ -1,52 +1,59 @@
-@media  screen and (max-width: 400px) {
-    
-    .container {
-        width:80%;
-        height:400px
-    }
-    .cover {
-        width: 70%;
-    }
-    .music {
-        margin: 0;
-        padding:10px
-    }
-    .music .music-info .title {
-        font-size: 23px !important;
-      }
-      
-    .music .music-info .artist {
-        font-size: 17px !important;
-    }
+@media screen and (max-width: 400px) {
+  .container {
+    padding:10px;
+    width: 80%;
+    height: 400px;
+  }
+  .cover {
+    width: 80%;
+  }
+  .music {
+    margin: 20px 0;
+    padding: 10px;
+  }
+  .music .music-info .title {
+    font-size: 20px !important;
+  }
+
+  .music .music-info .artist {
+    font-size: 15px !important;
+  }
+  .progress input {
+    height: 2px;
+  }
+
+  .progress input::-moz-range-thumb,
+  .progress input::-webkit-slider-thumb {
+    width: 10px;
+    height: 10px;
+  }
 }
 
+@media screen and (max-width: 530px) and (min-width: 401px) {
+  .container {
+    width: 80%;
+    height: 600px;
+  }
 
-@media  screen and (max-width: 530px )and (min-width: 401px) {
-    .container {
-        width:80%;
-        height:600px
-    }
+  .cover {
+    width: 90%;
+  }
 
-    .cover {
-        width: 80%;
-    }
+  .music .music-info .title {
+    font-size: 35px;
+  }
 
-    .music .music-info .title {
-        font-size: 35px;
-      }
-      
-    .music .music-info .artist {
-        font-size: 25px;
-    }
+  .music .music-info .artist {
+    font-size: 25px;
+  }
 }
-
 
 @media screen and (max-width: 600px) {
   .cover {
     transform: translate(100px, 0) scale(1.08);
-    
+
     .cover:hover {
-        box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.1);
     }
   }
 }
