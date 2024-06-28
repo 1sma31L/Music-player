@@ -20,7 +20,7 @@ function playPause() {
 if (!song.pause()) {
   setInterval(() => {
     progress.value = song.currentTime;
-  }, 100);
+  }, 500);
 }
 progress.onchange = () => {
   song.currentTime = progress.value;
@@ -28,6 +28,6 @@ progress.onchange = () => {
 
 document.addEventListener("keydown", (e) => {
   if (e.code === "Space") {
-    playPause(); 
+    playPause();
   }
 });
