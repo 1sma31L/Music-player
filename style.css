@@ -5,14 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* 
-body {
-  background-image: url(Assets/cover.jpg);
-  background-color: rgba(0, 0, 0, 0.01);
-  background-size: cover;
-  background-position: centre;
-  background-blend-mode: overlay;
-} */
 
 .container {
   display: flex;
@@ -33,9 +25,10 @@ body {
     255,
     255,
     0.1
-  ); /* Ensure there's a background to blur */
-  backdrop-filter: blur(10px); /* Apply blur effect */
+  ); 
+  backdrop-filter: blur(10px); 
 }
+
 .cover {
   position: relative;
   right: 100px;
