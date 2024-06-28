@@ -4,10 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
     <title>Music Player</title>
+    <script
+      src="https://kit.fontawesome.com/dab90a847c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <img class="cover-pic" src="" alt="">
+    <div class="container">
+      <img class="cover" src="Assets/cover.jpg" alt="" />
+      <div class="music">
+        <div class="music-info">
+          <h1 class="title">Where is my mind?</h1>
+          <h2 class="artist">Pixies</h2>
+        </div >
+        <i onclick="playPause()" id="play-pause" class="fa-solid fa-play fa-4x play-pause"></i>
+      </div>
+      <div class="progress"><input type="range" value="0" /></div>
+    </div>
+    <audio class="song" src="Assets/where-is-my-mind.mp4" controls></audio>
     <script src="script.js"></script>
   </body>
 </html>

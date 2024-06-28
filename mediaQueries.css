@@ -1,0 +1,29 @@
+@media  screen and (max-width: 530px) {
+    .container {
+        width:80%;
+        height:600px
+    }
+    
+    .cover {
+        width: 80%;
+    }
+
+    .music .music-info .title {
+        font-size: 35px;
+      }
+      
+    .music .music-info .artist {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+  .cover {
+    transform: translate(100px, 0) scale(1.08);
+    
+    .cover:hover {
+        box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
