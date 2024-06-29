@@ -1,110 +1,110 @@
 @import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  padding: 30px;
-  height: 700px;
-  width: 500px;
-  border-radius: 20px;
-  transform: translate(50%, -50%);
-  box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	padding: 30px;
+	height: 700px;
+	width: 500px;
+	border-radius: 20px;
+	transform: translate(50%, -50%);
+	box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(10px);
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 .cover {
-  position: relative;
-  right: 100px;
-  bottom: 20px;
-  width: 370px;
-  border-radius: 20px;
-  box-shadow: 5px 15px 50px 0px rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s, box-shadow 0.3s;
+	position: relative;
+	right: 100px;
+	bottom: 20px;
+	width: 370px;
+	border-radius: 20px;
+	box-shadow: 5px 15px 50px 0px rgba(0, 0, 0, 0.4);
+	transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .cover:hover {
-  transform: translate(100px, 0) scale(1.08);
-  box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.1);
+	transform: translate(100px, 0) scale(1.08);
+	box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.1);
 }
 
 .music {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 40px 0;
-  width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px 0;
+	width: 90%;
 }
 
 .music .music-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 .music .music-info .title {
-  font-family: "Tangerine", cursive;
-  font-size: 40px;
-  color: #333;
+	font-family: "Tangerine", cursive;
+	font-size: 40px;
+	color: #333;
 }
 
 .music .music-info .artist {
-  font-family: "Tangerine", cursive;
-  font-weight: 700;
-  font-size: 35px;
-  color: #333;
+	font-family: "Tangerine", cursive;
+	font-weight: 700;
+	font-size: 35px;
+	color: #333;
 }
 
 .progress {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 10px;
 }
 
 .progress input {
-  -webkit-appearance: none;
-  appearance: none;
-  background: #333;
-  height: 5px;
-  width: 90%;
-  border-radius: 40px;
-  cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+	background: #333;
+	height: 5px;
+	width: 90%;
+	border-radius: 40px;
+	cursor: pointer;
 }
 
 .progress input::-moz-range-thumb,
 .progress input::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  background: #333;
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+	-webkit-appearance: none;
+	appearance: none;
+	background: #333;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 #play-pause {
-  transition: transform 0.3s;
-  margin-left: 10px;
+	transition: transform 0.3s;
+	margin-left: 10px;
 }
 
 #play-pause:hover {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .song {
-  display: none;
+	display: none;
 }
