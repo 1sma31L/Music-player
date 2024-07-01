@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Music Player Project
 
 This project implements a simple web-based music player using HTML, CSS, and JavaScript that plays the song Where Is My Mind ?
@@ -38,6 +37,4 @@ The project consists of the following files and directories:
 
 
 **link** : https://1sma31l.github.io/Music-player/
-=======
 
->>>>>>> refs/remotes/origin/main
